@@ -23,11 +23,11 @@ const Contact = () => {
           </div>
           <div className="flex items-center gap-3 text-[#00D4BD]">
             <MdPhone className="text-2xl" />
-            <span>+8801625280985</span>
+            <span>+8801647527178</span>
           </div>
           <div className="flex items-center gap-3 text-[#00D4BD]">
             <MdEmail className="text-2xl" />
-            <span>mdrihamctg@gmail.com</span>
+            <span>mohammadfakhruddin131@gmail.com</span>
           </div>
         </div>
 
