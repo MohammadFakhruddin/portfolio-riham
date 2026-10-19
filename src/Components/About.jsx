@@ -1,11 +1,11 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 
 const About = () => {
   const social = [
-    { icon: <FaLinkedin />, link: "https://linkedin.com/in/yourprofile" },
+    { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/mohammad-fakhruddin/" },
     { icon: <FaGithub />, link: "https://github.com/MohammadFakhruddin" },
-    { icon: <FaFacebook />, link: "https://facebook.com/yourprofile" },
+    { icon: <FaWhatsapp />, link: "01647527178" },
   ];
 
   return (
