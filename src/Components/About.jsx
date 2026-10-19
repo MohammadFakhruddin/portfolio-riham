@@ -5,7 +5,7 @@ const About = () => {
   const social = [
     { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/mohammad-fakhruddin/" },
     { icon: <FaGithub />, link: "https://github.com/MohammadFakhruddin" },
-    { icon: <FaWhatsapp />, link: "01647527178" },
+    { icon: <FaWhatsapp />, link: "https://wa.me/01647527178" },
   ];
 
   return (
