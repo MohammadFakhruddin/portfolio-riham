@@ -55,12 +55,12 @@ const Contact = () => {
               className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[#00D4BD]"
             />
 
-            <button
-              type="submit"
-              className="bg-black text-white font-semibold rounded-full px-6 py-3 mt-4 hover:bg-gray-800 transition"
-            >
-              Send Message
-            </button>
+            <a
+  href="mailto:mohammadfakhruddin131@gmail.com"
+  className="inline-block bg-black text-white font-semibold rounded-full px-6 py-3 mt-4 hover:bg-gray-800 transition"
+>
+  Send Message
+</a>
           </form>
         </div>
       </div>
