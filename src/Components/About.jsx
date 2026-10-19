@@ -19,7 +19,7 @@ const About = () => {
           <h2 className="text-4xl font-bold text-[#00D4BD] mb-6">About Me</h2>
 
           <p className="text-[#A2A2A2] leading-relaxed mb-4">
-            Hello! I'm Riham, a freelance web developer. My programming journey started with HTML and CSS, 
+            Hello! I'm Fakhruddin, a freelance web developer. My programming journey started with HTML and CSS, 
             and over time I dove into JavaScript, React, and Next.js. I enjoy building websites and applications 
             that are both beautiful and functional, turning ideas into interactive digital experiences.
           </p>
