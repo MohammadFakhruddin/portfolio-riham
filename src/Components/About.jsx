@@ -35,12 +35,16 @@ const About = () => {
             Collaboration and continuous improvement are key values I bring to every project.
           </p>
 
-       <a
-  href="#projects"
-  className="inline-block bg-[#00D4BD] text-white px-6 py-3 rounded-full shadow-md hover:bg-white hover:text-black transition duration-300 mb-6"
+<button
+  onClick={() =>
+    document.getElementById("projects")?.scrollIntoView({
+      behavior: "smooth",
+    })
+  }
+  className="bg-[#00D4BD] text-white px-6 py-3 rounded-full shadow-md hover:bg-white hover:text-black transition duration-300 mb-6"
 >
   See My Projects
-</a>
+</button>
 
           {/* Social Icons */}
           <div className="flex gap-6 justify-center lg:justify-start">
