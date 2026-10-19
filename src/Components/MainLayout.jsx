@@ -14,8 +14,8 @@ const MainLayout = () => {
     switch (activeSection) {
       case "home":
         return <Banner />;
-      case "about":
-        return <About />;
+case "about":
+  return <About onNavClick={setActiveSection} />;
       case "skills":
         return <Skills />;
       case "projects":
