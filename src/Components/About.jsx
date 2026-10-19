@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 
-const About = () => {
+const About = ({ onNavClick }) => {
   const social = [
     { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/mohammad-fakhruddin/" },
     { icon: <FaGithub />, link: "https://github.com/MohammadFakhruddin" },
@@ -36,11 +36,7 @@ const About = () => {
           </p>
 
 <button
-  onClick={() =>
-    document.getElementById("projects")?.scrollIntoView({
-      behavior: "smooth",
-    })
-  }
+  onClick={() => onNavClick("projects")}
   className="bg-[#00D4BD] text-white px-6 py-3 rounded-full shadow-md hover:bg-white hover:text-black transition duration-300 mb-6"
 >
   See My Projects
