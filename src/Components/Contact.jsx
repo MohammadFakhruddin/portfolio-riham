@@ -19,7 +19,7 @@ const Contact = () => {
         <div className="flex-1 rounded-xl shadow-lg p-6 space-y-6 bg-[#111]">
           <div className="flex items-center gap-3 text-[#00D4BD]">
             <MdLocationOn className="text-2xl" />
-            <span>Bangladesh, Chittagong</span>
+            <span>Bangladesh, Chattogram</span>
           </div>
           <div className="flex items-center gap-3 text-[#00D4BD]">
             <MdPhone className="text-2xl" />
